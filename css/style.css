@@ -1,32 +1,39 @@
 body{
     background-color: whitesmoke;
-    margin: 0px 100px;
-    overflow:inherit;
+    margin: 0px;
+    overflow-x: hidden;
 }
 
 /* ------------------------------------------------------------------  Navigation Bar Starts  ---------------------------------------------------------------------------- */
 .nav-bar{
-    margin-bottom: 0px;
-    padding: 0px;
-    box-shadow: 0px 5px 4px -5px  #013F69;
+    position: fixed;
+    top: 0px;
+    background-color: white;
+    width: 100%;
+    z-index: 999;
 }
 
 .nav-bar-ul{
     margin-top: 10px;
     margin-bottom: 0px;
-    padding: 0px;
+    padding: 0px; 
+
 }
 
-.li-center{
+.li-center a{
     display: inline-block;
     margin-right: 20px;
-    font-family: Poppins;
-    font-size: 30px;
-    color: #013F69;
+    width: 200px;
+    height: 50px;
     position: relative;
-    left: 10px;
-    top: 7px;
+    left: 20px;
+    top: 20px;
     margin-bottom: 20px;
+}
+
+.li-center .li-center-image{
+    width: inherit;
+    height: inherit;
 }
 
 .li-right{
@@ -34,8 +41,8 @@ body{
     margin-right: 20px;
     font-family: Poppins;
     position: relative;
-    right: -40%;
-    top: 7px;
+    left: 55%;
+    top: -30px;
 }
 
 .li-right a{
@@ -83,6 +90,7 @@ body{
 }
 
 /* ------------------------------------------------------------------  Navigation Bar Ends  ---------------------------------------------------------------------------- */
+
 
 /* ------------------------------------------------------------------ Body Starts  ---------------------------------------------------------------------------- */
 
