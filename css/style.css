@@ -69,6 +69,94 @@ body{
 
 /* ------------------------------------------------------------------  Navigation Bar Ends  ---------------------------------------------------------------------------- */
 
+/* ------------------------------------------------------------------ Body Starts  ---------------------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------ Carousel Slider Starts  ---------------------------------------------------------------------------- */
+
+.slider-image{
+    height: 500px;
+    width: 100%;
+}
+
+.slider-image img{
+    width: inherit;
+    height: inherit;
+    filter:brightness(0.5);
+}
+
+.slider{
+    position: relative;
+}
+
+
+.button-left{
+    color: whitesmoke;
+    position: absolute;
+    font-size: 20px;
+    bottom: 30px;
+    left: 100px;
+}
+.button-left:hover{
+    cursor: pointer;
+}
+
+.button-right{
+    color: whitesmoke;
+    position: absolute;
+    font-size: 20px;
+    right: 100px;
+    bottom: 30px;
+}
+.button-right:hover{
+    cursor: pointer;
+}
+
+
+.dots{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid whitesmoke;
+    bottom: 30px;left: 790px;
+}
+
+.white{
+    background-color: whitesmoke;
+}
+
+.dots:hover{
+    cursor: pointer;
+    
+}
+
+
+.next1:hover{
+    background-color: whitesmoke;
+}
+
+
+.next2{
+    left: 820px;
+   }
+
+.next2:hover{
+    background-color: whitesmoke;
+}
+
+
+.next3{
+    left: 850px;
+   }
+
+.next3:hover{
+    background-color: whitesmoke;
+}
+
+/* ------------------------------------------------------------------ Carousel Slider Ends  ---------------------------------------------------------------------------- */
+
+
+/* ------------------------------------------------------------------ Body Ends  ---------------------------------------------------------------------------- */
 
 
 /* ------------------------------------------------------------------  Footer Starts  ---------------------------------------------------------------------------- */

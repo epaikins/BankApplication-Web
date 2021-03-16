@@ -25,7 +25,32 @@
     </div>
 
     <!-- Main Body -->
-    <div></div>
+    <div class="body-main">
+        <!-- Carousel Slider -->
+        <div class="slider">
+            <!-- Image Slides -->
+            <div class="slider-image">
+                <img src="assets/image1.jpg" alt="">
+            </div>
+            <div class="slider-image">
+                <img src="assets/image2.jpg" alt="">
+            </div>
+            <div class="slider-image">
+                <img src="assets/image3.jpg" alt="">
+            </div>
+
+            <!-- Buttons on Slides -->
+            <div class="button-left" onclick="plusDivs(-1)">&#10094;</div>
+            <div class="button-right" onclick="plusDivs(1)">&#10095;</div>
+
+            <span class="dots next1" onclick="currentDiv(1)"></span>
+            <span class="dots next2" onclick="currentDiv(2)"></span>
+            <span class="dots next3" onclick="currentDiv(3)"></span>
+            
+
+        </div>
+
+    </div>
 
     <!-- Footer -->
     <div class="footer">
@@ -71,6 +96,8 @@
         </div>
     </div>
 
+
+    <script src="scripts/script.js"></script>
 </body>
 
 </html>
