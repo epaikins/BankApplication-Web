@@ -43,7 +43,7 @@ function carousel() {
   if (myIndex > x.length) {myIndex = 1}    
   x[myIndex-1].style.display = "block"; 
   dots[myIndex-1].className += " white";
-  setTimeout(carousel, 5000); // Change image every 2 seconds
+  setTimeout(carousel, 5000); 
   
 }
 

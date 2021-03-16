@@ -153,6 +153,41 @@ body{
     background-color: whitesmoke;
 }
 
+.info{
+    position: absolute;
+    background-color: #ffffffa5;
+    border-radius: 10px;
+    padding: 0px 20px 20px 20px;
+    top: 100px;
+    left: 100px;
+}
+
+.info-link{
+    color: #013F69;
+    text-decoration: none;
+    padding: 8px;
+    border: 1px solid #013F69;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    position: relative;
+}
+
+.info-link:hover{
+    background-color:#013F69;
+    color: whitesmoke;
+    border-radius: 8px;
+}
+
+.info h3{
+    color: #013F69;
+    font-size: 50px;
+}
+
+.info p{
+    color: #013F69;
+    font-size: 20px;
+}
+
 /* ------------------------------------------------------------------ Carousel Slider Ends  ---------------------------------------------------------------------------- */
 
 
