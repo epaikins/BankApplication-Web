@@ -69,9 +69,9 @@ body{
 
 
 .li-right .join-now:hover{
-    border: 2px solid #013F69;
-    background-color: whitesmoke;
-    color: #013F69;
+    border: 2px solid #0b87da;
+    background-color: #0b87da;
+    color: whitesmoke;
 
 }
 
@@ -92,14 +92,70 @@ body{
 /* ------------------------------------------------------------------  Navigation Bar Ends  ---------------------------------------------------------------------------- */
 
 
+/* ------------------------------------------------------------------  Product and Services Start ---------------------------------------------------------------------------- */
+
+.flex-div{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.ps-title{
+    display: block;
+}
+.ps-title h3{
+    margin-top: 150px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    color: #013F69;
+    font-family: poppins; 
+}
 
 
 
+.ps-title hr{
+    width: 300px;
+    border: 2px solid #013F69;
+}
 
+.ps-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 3rem;
+    row-gap: 2rem;
+    margin-bottom: 100px;
+}
 
+.ps-item{
+    width: 500px;
+}
 
+.ps-item h3{
+    font-size: 25px;
+    color: #013F69;
+}
 
+.ps-item p{
+    font-size: 40px;
+    color: #013F69;
+}
 
+.ps-item a{
+    background-color:  #013F69;
+    border-radius: 5px;
+    font-size: 20px;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+.ps-item a:hover{
+    background-color: #0b87da;
+    border-radius: 5px;
+    color: whitesmoke;
+}
+
+/* ------------------------------------------------------------------  Product and Services  End ---------------------------------------------------------------------------- */
 
 
 
