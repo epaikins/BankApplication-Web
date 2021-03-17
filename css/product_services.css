@@ -91,6 +91,68 @@ body{
 
 /* ------------------------------------------------------------------  Navigation Bar Ends  ---------------------------------------------------------------------------- */
 
+/* ------------------------------------------------------------------ Banner Start ---------------------------------------------------------------------------- */
+
+.contact-bg{
+    position: relative;
+    width: 100%;
+}
+
+.contact-bg img{
+    width:inherit;
+}
+
+.contact-bg h4{
+    color: #013F69;
+    font-size: 20px;
+    font-family: poppins;
+    padding:0px;
+    margin: 0px 0px 10px 0px;
+} 
+
+.contact-bg hr{
+    border: 3px solid #013F69;
+    padding:0px;
+    margin: 0px;
+}
+.contact-bg h3{
+    color: #013F69;
+    font-size: 40px;
+    font-family: poppins;
+} 
+
+.contact-bg p{
+    color: #013F69;
+    font-size: 15px;
+    font-family: poppins;
+    margin-bottom: 40px;
+} 
+
+.contact-link{
+    border: 2px solid #013F69;
+    border-radius: 5px;
+    font-size: 30px;
+    color: #013F69;
+    padding: 10px;
+}
+
+.contact-link:hover{
+    border-radius: 5px;
+    color: whitesmoke;
+    background-color: #013F69;
+}
+
+.contact-bg-info{
+    position: absolute;
+    text-align: center;
+    top: 180px;
+    left: 1000px;
+    width: 700px;
+}
+
+/* ------------------------------------------------------------------ Banner End  ---------------------------------------------------------------------------- */
+
+
 
 /* ------------------------------------------------------------------  Product and Services Start ---------------------------------------------------------------------------- */
 
