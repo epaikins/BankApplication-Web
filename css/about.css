@@ -261,7 +261,7 @@ height: auto;
 .like-td{
     padding: 0px;
     margin: 100px;
-    width: 8cm;
+    width: 300px;
     height: auto;
 
 }
@@ -300,6 +300,11 @@ height: auto;
     padding-top: 50px;
     border-spacing: 60px 0px;
     margin-bottom: 100px;
+}
+
+.board-flex{
+    display: flex;
+    justify-content: center;
 }
 
 /* ------------------------------------------------------------------ Team End  ---------------------------------------------------------------------------- */

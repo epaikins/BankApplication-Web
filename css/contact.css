@@ -93,10 +93,172 @@ body{
 
 
 
+/* ------------------------------------------------------------------ About Div Start ---------------------------------------------------------------------------- */
+
+.contact-bg{
+    position: relative;
+    width: 100%;
+}
+
+.contact-bg img{
+    width:inherit;
+}
+
+.contact-bg h4{
+    color: #013F69;
+    font-size: 20px;
+    font-family: poppins;
+    padding:0px;
+    margin: 0px 0px 10px 0px;
+} 
+
+.contact-bg hr{
+    border: 3px solid #013F69;
+    padding:0px;
+    margin: 0px;
+}
+.contact-bg h3{
+    color: #013F69;
+    font-size: 40px;
+    font-family: poppins;
+} 
+
+.contact-bg p{
+    color: #013F69;
+    font-size: 15px;
+    font-family: poppins;
+    margin-bottom: 40px;
+} 
+
+.contact-link{
+    border: 2px solid #013F69;
+    border-radius: 5px;
+    font-size: 30px;
+    color: #013F69;
+    padding: 10px;
+}
+
+.contact-link:hover{
+    border-radius: 5px;
+    color: whitesmoke;
+    background-color: #013F69;
+}
+
+.contact-bg-info{
+    position: absolute;
+    text-align: center;
+    top: 170px;
+    left: 1200px;
+    width: 500px;
+}
+
+/* ------------------------------------------------------------------ About Div End  ---------------------------------------------------------------------------- */
 
 
 
 
+/* ------------------------------------------------------------------ Contact Start  ---------------------------------------------------------------------------- */
+
+.bank-bg{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.flex-div{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 100px;
+}
+
+.address-title{
+    color: grey;
+    font-size: 15px;
+    font-family: poppins;
+}
+
+.address{
+    width: 500px;
+}
+
+.address-text{
+    color: #013F69;
+    font-size: 25px;
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+
+  input[type=text]:active{
+    border: 1px solid #013F69;
+  }
+  
+
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #013F69;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #0b87da;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    margin-top: 6px;
+  }
+
+  .like-div{
+    padding: 0px;
+    margin: 0px;
+}
+
+.like-div hr{
+    border: 2px solid #013F69;
+}
+
+.like-div p{
+    position: relative;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 30px;
+    color: #013F69;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 0px;
+}
+
+/* ------------------------------------------------------------------ Contact End  ---------------------------------------------------------------------------- */
 
 
 
