@@ -5,10 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" 
-      type="image/png" 
-      href="assets/telescope.png">
-    <link rel="stylesheet" href="css/product_services.css">
+    <link rel="icon" type="image/png" href="assets/telescope.png">
+    <link rel="stylesheet" href="css/ebanking.css">
     <title>Vision Bank</title>
 </head>
 
@@ -24,10 +22,69 @@
             <li class="li-right"><a href="about.html">About</a></li>
             <li class="li-right"><a href="contact.html">Contact</a></li>
             <li class="li-right"><a class="join-now" href="#">JOIN NOW</a></li>
-            <li class="li-right"><a class="login-now" href="#">LOG IN</a></li>
+            <li class="li-right"><a id="login-now" class="login-now" href="ebanking.html">LOG IN</a></li>
+
         </ul>
     </div>
 
+
+    <!-- Banner -->
+    <div class="about-bg">
+        <img src="assets/ebanking.png" alt="">
+        <div id="about-bg-info" class="about-bg-info">
+            <h3>Premier E-Banking</h3>
+            <p>Get started with eBanking for both your business and personal needs today.</p>
+            <a class="about-link" href="#">JOIN US</a>
+        </div>
+
+        <!-- Welcome Info -->
+        <div id="welcome-bg-info" class="welcome-bg-info">
+            <h3>Welcome </h3>
+            <h3 id="usernameID"> </h3>
+            <p>Current Balance: </p>
+            <h2>GHc </h2>
+            <h2 id="currentAmount" class="currentAmount"></h2>
+        </div>
+
+        <div id="main" class="main">
+            <!-- Login Form -->
+            <div id="login-bg" class="login-bg">
+                <p class="sign-text">Sign in</p>
+                <form class="login-form">
+                    <input id="name" class="un" type="name" placeholder="Username">
+                    <input class="pass" type="password"  placeholder="Password">
+                    <a id="login" class="login">Log in</a>
+                    <p class="forgot"><a href="#">Forgot Password?</a></p>
+                </form>
+            </div>
+
+            <!-- Deposit Form -->
+            <div id="deposit-bg" class="deposit-bg">
+                <p class="deposit-text">Deposit</p>
+                <form class="deposit-form">
+                    <input id="amount" class="amount" type="text" value="" placeholder="Amount">
+                    <a id="deposit" class="deposit">Deposit</a>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Deposit Fund Div -->
+    <!-- <div class="deposit-div">
+            <p id="amount" >Amount: </p>
+            <input type="number" id="depositID" placeholder="Enter Amount">
+            <input type="submit" value="Deposit" onclick="depositValue()">
+        </div> -->
+
+
+
+    <!-- <form action="/action_page.php">
+            <label for="name">Username:</label><br>
+            <input type="text" id="username"  placeholder="Enter Username"><br>
+            <label for="pass">Password:</label><br>
+            <input type="password" id="password" placeholder="Enter Password"><br><br>
+            <input type="submit" value="Submit">
+          </form>  -->
 
 
 
@@ -38,42 +95,44 @@
                 <div class="">
                     <p class="footer-p-head">Customer Services</p>
                     <ul class="footer-ul">
-                        <li class="footer-li-vertical"><a href="#">Open An Account</a></li>
-                        <li class="footer-li-vertical"><a href="#">Locate a Branch</a></li>
-                        <li class="footer-li-vertical"><a href="#">Current Rates</a></li>
-                        <li class="footer-li-vertical"><a href="#">Download Forms</a></li>
+                        <li class="footer-li-vertical"><a class="footer-a" href="#">Open An Account</a></li>
+                        <li class="footer-li-vertical"><a class="footer-a" href="#">Locate a Branch</a></li>
+                        <li class="footer-li-vertical"><a class="footer-a" href="#">Current Rates</a></li>
+                        <li class="footer-li-vertical"><a class="footer-a" href="#">Download Forms</a></li>
                     </ul>
                 </div>
                 <div>
                     <p class="footer-p-head">Online Help</p>
                     <ul class="footer-ul">
-                        <li class="footer-li-vertical"><a href="#">Internet Banking</a></li>
-                        <li class="footer-li-vertical"><a href="#">Account Opening Forms</a></li>
-                        <li class="footer-li-vertical"><a href="#">Frequently Asked Questions</a></li>
-                        <li class="footer-li-vertical"><a href="#">Scam Alert</a></li>
-                        <li class="footer-li-vertical"><a href="#">How to Spot a Scam</a></li>
+                        <li class="footer-li-vertical"><a class="footer-a" href="#">Internet Banking</a></li>
+                        <li class="footer-li-vertical"><a class="footer-a" href="#">Account Opening Forms</a></li>
+                        <li class="footer-li-vertical"><a class="footer-a" href="#">Frequently Asked Questions</a></li>
+                        <li class="footer-li-vertical"><a class="footer-a" href="#">Scam Alert</a></li>
+                        <li class="footer-li-vertical"><a class="footer-a" href="#">How to Spot a Scam</a></li>
                     </ul>
                 </div>
                 <div class="footer-social">
                     <p class="footer-p-head">Social Handles</p>
                     <ul class="footer-ul">
-                        <li class="footer-li-horizontal"><a href="#"><img src="assets/facebook.svg" alt=""></a></li>
-                        <li class="footer-li-horizontal"><a href="#"><img src="assets/instagram.svg" alt=""></a></li>
-                        <li class="footer-li-horizontal"><a href="#"><img src="assets/youtube.svg" alt=""></a></li>
-                        <li class="footer-li-horizontal"><a href="#"><img src="assets/linkedin.svg" alt=""></a></li>
+                        <li class="footer-li-horizontal"><a class="footer-a" href="#"><img src="assets/facebook.svg" alt=""></a></li>
+                        <li class="footer-li-horizontal"><a class="footer-a" href="#"><img src="assets/instagram.svg" alt=""></a></li>
+                        <li class="footer-li-horizontal"><a class="footer-a" href="#"><img src="assets/youtube.svg" alt=""></a></li>
+                        <li class="footer-li-horizontal"><a class="footer-a" href="#"><img src="assets/linkedin.svg" alt=""></a></li>
                     </ul>
                 </div>
             </div>
             <hr>
             <p class="footer-p">© 2021 Vision Bank</p>
             <ul class="footer-bottom-ul">
-                <li class="footer-li-horizontal"><a href="#">Privacy</a></li>
-                <li class="footer-li-horizontal"><a href="#">Terms & Conditions</a></li>
-                <li class="footer-li-horizontal"><a href="#">Security</a></li>
-                <li class="footer-li-horizontal"><a href="#">Site Map</a></li>
+                <li class="footer-li-horizontal"><a class="footer-a" href="#">Privacy</a></li>
+                <li class="footer-li-horizontal"><a class="footer-a" href="#">Terms & Conditions</a></li>
+                <li class="footer-li-horizontal"><a class="footer-a" href="#">Security</a></li>
+                <li class="footer-li-horizontal"><a class="footer-a" href="#">Site Map</a></li>
             </ul>
         </div>
     </div>
+
+    <script src="scripts/deposit.js"></script>
 </body>
 
 </html>

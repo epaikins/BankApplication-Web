@@ -1,3 +1,5 @@
+// Carousel Implementation
+
 let x = document.getElementsByClassName("slider-image");
 let dots = document.getElementsByClassName("dots");
 
@@ -46,4 +48,3 @@ function carousel() {
   setTimeout(carousel, 5000); 
   
 }
-
