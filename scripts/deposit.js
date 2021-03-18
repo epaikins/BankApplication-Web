@@ -10,7 +10,7 @@ function depositValue() {
     if(Number(deposit) >= 0){
     balance += Number(deposit);
   }
-  else alert("Please enter a correct value")
+  else alert("Please enter valid amount");
     document.getElementById("currentAmount").innerText = balance;
   }
 
