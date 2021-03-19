@@ -1,0 +1,584 @@
+body{
+    background-color: whitesmoke;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+/* ------------------------------------------------------------------  Navigation Bar Starts  ---------------------------------------------------------------------------- */
+.nav-bar{
+    position: fixed;
+    top: 0px;
+    background-color: white;
+    width: 100%;
+    z-index: 999;
+}
+
+.nav-bar-ul{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding: 0px; 
+
+}
+
+.li-center a{
+    display: inline-block;
+    margin-right: 20px;
+    width: 200px;
+    height: 50px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    margin-bottom: 20px;
+}
+
+.li-center .li-center-image{
+    width: inherit;
+    height: inherit;
+}
+
+.li-right{
+    display: inline-block;
+    margin-right: 20px;
+    font-family: Poppins;
+    position: relative;
+    left: 55%;
+    top: -30px;
+}
+
+.li-right a{
+    color: #013F69;
+    text-decoration: none;
+    padding: 8px;
+    transition-duration: 0.4s;
+}
+
+.li-right a:hover{
+    background-color:#013F69;
+    color: whitesmoke;
+    border-radius: 8px;
+}
+
+.li-right .join-now{
+    color: whitesmoke;
+    background-color: #013F69;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 15px;
+    transition-duration: 0.4s;
+}
+
+
+.li-right .join-now:hover{
+    border: 2px solid #013F69;
+    background-color: whitesmoke;
+    color: #013F69;
+
+}
+
+.li-right .login-now{
+    border-radius: 8px;
+    border: 2px solid #013F69;
+    padding: 8px;
+    font-size: 14px;
+    transition-duration: 0.4s;
+}
+
+.login-now:hover{
+    background-color:#013F69;
+    color: whitesmoke;
+    border-radius: 8px;
+}
+
+/* ------------------------------------------------------------------  Navigation Bar Ends  ---------------------------------------------------------------------------- */
+
+
+/* ------------------------------------------------------------------ Body Starts  ---------------------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------ Carousel Slider Starts  ---------------------------------------------------------------------------- */
+
+.slider-image{
+    width: 100%;
+}
+
+.slider-image img{
+    width: inherit;
+    height: inherit;
+}
+
+.slider{
+    position: relative;
+}
+
+
+.button-left{
+    color: #013F69;
+    position: absolute;
+    font-size: 20px;
+    bottom: 30px;
+    left: 100px;
+}
+.button-left:hover{
+    cursor: pointer;
+}
+
+.button-right{
+    color: #013F69;
+    position: absolute;
+    font-size: 20px;
+    right: 100px;
+    bottom: 30px;
+}
+.button-right:hover{
+    cursor: pointer;
+}
+
+
+.dots{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid #013F69;
+    bottom: 30px;left: 790px;
+}
+
+.white{
+    background-color: #013F69;
+}
+
+.dots:hover{
+    cursor: pointer;
+    
+}
+
+
+.next1:hover{
+    background-color: #013F69;
+}
+
+
+.next2{
+    left: 820px;
+   }
+
+.next2:hover{
+    background-color: #013F69;
+}
+
+
+.next3{
+    left: 850px;
+   }
+
+.next3:hover{
+    background-color: #013F69;
+}
+
+.info{
+    position: absolute;
+    background-color: none;
+    border-radius: 10px;
+    padding: 0px 20px 20px 20px;
+    top: 200px;
+    left: 100px;
+}
+
+.info-link{
+    color: #013F69;
+    text-decoration: none;
+    padding: 8px;
+    border: 1px solid #013F69;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    position: relative;
+    font-size: 20px;
+}
+
+.info-link:hover{
+    background-color:#013F69;
+    color: whitesmoke;
+    border-radius: 8px;
+}
+
+.info h3{
+    color: #013F69;
+    font-size: 50px;
+}
+
+.info p{
+    color: #013F69;
+    font-size: 20px;
+}
+
+
+
+/* ------------------------------------------------------------------ Carousel Slider Ends  ---------------------------------------------------------------------------- */
+
+
+/* ------------------------------------------------------------------ Promotions Grid Start ---------------------------------------------------------------------------- */
+
+.offers-grid{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    background-color: #013F69;
+}
+
+.offers-item{
+    display: flex;
+    border: 1px solid whitesmoke;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.offers-item:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.offers-item img{
+    margin-top: 10px;
+    width: 70px;
+    height: 70px;
+}
+.offers-item p{
+    font-family: poppins;
+    color: whitesmoke;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.goal-text{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    padding-top: 40px;
+    text-align: center;
+    
+}
+
+.goal-text h3{
+    padding: 0px;
+    margin: 0px;
+    color: #013F69;
+    font-size: 40px;
+    font-family: poppins;
+    
+}
+
+.goals-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+}
+
+.goals-item{
+}
+
+.goal-info{
+    
+    top: 100px;
+}
+
+.goals-item img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.goals-grid-sub{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    gap: 1rem;
+}
+
+/* ------------------------------------------------------------------ Promotions Grid End  ---------------------------------------------------------------------------- */
+
+
+/* ------------------------------------------------------------------ Mobile App Div Start ---------------------------------------------------------------------------- */
+
+.mobile-bg{
+    position: relative;
+    width: 100%;
+}
+
+.mobile-bg img{
+    width:inherit;
+}
+
+.mobile-bg h4{
+    color: #013F69;
+    font-size: 20px;
+    font-family: poppins;
+    padding:0px;
+    margin: 0px 0px 10px 0px;
+} 
+
+.mobile-bg hr{
+    border: 3px solid #013F69;
+    padding:0px;
+    margin: 0px;
+}
+.mobile-bg h3{
+    color: #013F69;
+    font-size: 40px;
+    font-family: poppins;
+} 
+
+.mobile-bg p{
+    color: #013F69;
+    font-size: 15px;
+    font-family: poppins;
+    margin-bottom: 40px;
+} 
+
+.mobile-link{
+    border: 2px solid #013F69;
+    border-radius: 5px;
+    font-size: 30px;
+    color: #013F69;
+    padding: 10px;
+}
+
+.mobile-link:hover{
+    border-radius: 5px;
+    color: whitesmoke;
+    background-color: #013F69;
+}
+
+.mobile-bg-info{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 500px;
+}
+
+/* ------------------------------------------------------------------ Mobile App Div End  ---------------------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------ Student Loan Div Start ---------------------------------------------------------------------------- */
+
+.student-bg{
+    position: relative;
+    width: 100%;
+}
+
+.student-bg img{
+    width:inherit;
+}
+
+.student-bg h4{
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: poppins;
+    padding:0px;
+    margin: 0px 0px 10px 0px;
+} 
+
+.student-bg hr{
+    border: 3px solid whitesmoke;
+    padding:0px;
+    margin: 0px;
+}
+.student-bg h3{
+    color: whitesmoke;
+    font-size: 30px;
+    font-family: poppins;
+} 
+
+.student-bg p{
+    color: whitesmoke;
+    font-size: 15px;
+    font-family: poppins;
+    margin-bottom: 40px;
+} 
+
+.student-link{
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    font-size: 30px;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+.student-link:hover{
+    border: none;
+    border-radius: 5px;
+    color: whitesmoke;
+    background-color: #013F69;
+}
+
+.student-bg-info{
+    position: absolute;
+    top: 30px;
+    left: 100px;
+    width: 500px;
+}
+
+/* ------------------------------------------------------------------ Student Loan Div End  ---------------------------------------------------------------------------- */
+
+
+
+/* ------------------------------------------------------------------ Articles Div End  ---------------------------------------------------------------------------- */
+
+.like-div{
+    padding: 0px;
+    margin: 0px;
+}
+
+.like-div hr{
+    border: 2px solid #013F69;
+}
+
+.like-div-link{
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 70px;
+    top: 40px;
+    left: 825px;
+}
+
+.like-div-link a{
+    border: 2px solid #013F69 ;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #013F69;
+    padding: 10px;
+}
+
+.like-div-link a:hover{
+    background-color: #013F69;
+    border-radius: 5px;
+    color: whitesmoke;
+}
+
+.like-div p{
+    position: relative;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 30px;
+    color: #013F69;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 0px;
+}
+
+.like-td{
+    padding: 0px;
+    margin: 100px;
+    width: 10cm;
+    height: auto;
+
+}
+
+.like-image{
+    width: inherit;
+    height: 8cm;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.like-text-td{
+    padding-right: 0px;
+    margin: 0px;
+    border-bottom: 1px solid #013F69;
+    border-left: 1px solid #013F69;
+    border-right: 1px solid #013F69;
+    
+}
+.like-text-td p{
+    font-size: 20px;
+    text-align: center;
+    color: #013F69;
+}
+
+.like-tr{
+    margin: 200px;
+}
+
+.like-table{
+    position: relative;
+    padding-top: 50px;
+    border-spacing: 60px 0px;
+}
+
+/* ------------------------------------------------------------------ Articles Div End  ---------------------------------------------------------------------------- */
+
+
+
+
+/* ------------------------------------------------------------------ Carousel Slider Ends  ---------------------------------------------------------------------------- */
+
+
+
+/* ------------------------------------------------------------------ Body Ends  ---------------------------------------------------------------------------- */
+
+
+/* ------------------------------------------------------------------  Footer Starts  ---------------------------------------------------------------------------- */
+.footer{
+    position: relative;
+    bottom: 0;
+    background-color: #013F69;
+    width: 100%;
+}
+
+.footer-sub{
+    margin: 0px 300px;
+}
+
+.footer-li-vertical{
+    display: block;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    font-family: Poppins;
+    position: relative;
+}
+
+.footer-li-horizontal img{
+    width: 50px;
+    height: 50px;
+}
+
+.footer-ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+    padding: 0px;
+    font-family: Poppins;
+    font-size: 15px;
+    transition-duration: 0.4s;
+    color: whitesmoke;
+}
+
+.footer-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer-bottom-ul{
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 10px;
+}
+
+.footer-li-horizontal{
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    font-family: Poppins;
+    position: relative;
+}
+
+.footer-p-head{
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+.footer-p{
+    color: whitesmoke;
+}
+
+/* ------------------------------------------------------------------  Footer Ends  ---------------------------------------------------------------------------- */

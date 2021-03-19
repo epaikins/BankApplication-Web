@@ -1,0 +1,397 @@
+body{
+    background-color: whitesmoke;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+/* ------------------------------------------------------------------  Navigation Bar Starts  ---------------------------------------------------------------------------- */
+.nav-bar{
+    position: fixed;
+    top: 0px;
+    background-color: white;
+    width: 100%;
+    z-index: 999;
+}
+
+.nav-bar-ul{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding: 0px; 
+
+}
+
+.li-center a{
+    display: inline-block;
+    margin-right: 20px;
+    width: 200px;
+    height: 50px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    margin-bottom: 20px;
+}
+
+.li-center .li-center-image{
+    width: inherit;
+    height: inherit;
+}
+
+.li-right{
+    display: inline-block;
+    margin-right: 20px;
+    font-family: Poppins;
+    position: relative;
+    left: 55%;
+    top: -30px;
+}
+
+.li-right a{
+    color: #013F69;
+    text-decoration: none;
+    padding: 8px;
+    transition-duration: 0.4s;
+}
+
+.li-right a:hover{
+    background-color:#013F69;
+    color: whitesmoke;
+    border-radius: 8px;
+}
+
+.li-right .join-now{
+    color: whitesmoke;
+    background-color: #013F69;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 15px;
+    transition-duration: 0.4s;
+}
+
+
+.li-right .join-now:hover{
+    border: 2px solid #013F69;
+    background-color: whitesmoke;
+    color: #013F69;
+
+}
+
+.li-right .login-now{
+    border-radius: 8px;
+    border: 2px solid #013F69;
+    padding: 8px;
+    font-size: 14px;
+    transition-duration: 0.4s;
+}
+
+.login-now:hover{
+    background-color:#013F69;
+    color: whitesmoke;
+    border-radius: 8px;
+}
+
+/* ------------------------------------------------------------------  Navigation Bar Ends  ---------------------------------------------------------------------------- */
+
+
+/* ------------------------------------------------------------------ About Div Start ---------------------------------------------------------------------------- */
+
+.about-bg{
+    position: relative;
+    width: 100%;
+}
+
+.about-bg img{
+    width:inherit;
+}
+
+.about-bg h4{
+    color: #013F69;
+    font-size: 20px;
+    font-family: poppins;
+    padding:0px;
+    margin: 0px 0px 10px 0px;
+} 
+
+.about-bg hr{
+    border: 3px solid #013F69;
+    padding:0px;
+    margin: 0px;
+}
+.about-bg h3{
+    color: #013F69;
+    font-size: 40px;
+    font-family: poppins;
+} 
+
+.about-bg p{
+    color: #013F69;
+    font-size: 15px;
+    font-family: poppins;
+    margin-bottom: 40px;
+} 
+
+.about-link{
+    border: 2px solid #013F69;
+    border-radius: 5px;
+    font-size: 30px;
+    color: #013F69;
+    padding: 10px;
+}
+
+.about-link:hover{
+    border-radius: 5px;
+    color: whitesmoke;
+    background-color: #013F69;
+}
+
+.about-bg-info{
+    position: absolute;
+    text-align: center;
+    top: 150px;
+    left: 100px;
+    width: 500px;
+}
+
+/* ------------------------------------------------------------------ About Div End  ---------------------------------------------------------------------------- */
+
+
+/* ------------------------------------------------------------------ Information Start  ---------------------------------------------------------------------------- */
+.flex-div{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.information-grid{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+grid-template-rows: repeat(2,1fr);
+row-gap: 1rem;
+margin:0px;
+padding: 0px;
+width: auto;
+height: auto;
+
+}
+
+.item-text{
+    background-color: white;
+    text-align: center;
+    width: 700px;
+    height: 600px;
+}
+
+.item-text hr{
+    width: 100px;
+    border: 2px solid #013F69;
+}
+
+.item-text h4{
+    color: #013F69;
+    font-size: 30px;
+    font-family: poppins;
+    margin-bottom: 0px;
+}
+
+.item-text p{
+    color: #013F69;
+    font-size: 15px;
+    font-family: poppins;
+}
+
+.item-image{
+    width: 700px;
+    height: 600px;
+}
+
+.item-image img{
+    width: inherit;
+    height: inherit;
+}
+
+
+
+
+/* ------------------------------------------------------------------ Information End  ---------------------------------------------------------------------------- */
+
+
+
+/* ------------------------------------------------------------------ Team End  ---------------------------------------------------------------------------- */
+
+.like-div{
+    padding: 0px;
+    margin: 0px;
+}
+
+.like-div hr{
+    border: 2px solid #013F69;
+}
+
+.like-div-link{
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 70px;
+    top: 40px;
+    left: 650px;
+}
+
+.like-div-link a{
+    border: 2px solid #013F69 ;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #013F69;
+    padding: 10px;
+}
+
+.like-div-link a:hover{
+    background-color: #013F69;
+    border-radius: 5px;
+    color: whitesmoke;
+}
+
+.like-div p{
+    position: relative;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 30px;
+    color: #013F69;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 0px;
+}
+
+.like-td{
+    padding: 0px;
+    margin: 100px;
+    width: 300px;
+    height: auto;
+
+}
+
+.like-image{
+    width: inherit;
+    height: 8cm;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 50%;
+}
+
+.like-text-td{
+    padding-right: 0px;
+    margin: 0px;
+    
+}
+.like-text-td p{
+    font-size: 15px;
+    text-align: center;
+    color: #013F69;
+}
+.like-text-td h3{
+    font-size: 20px;
+    text-align: center;
+    color: #013F69;
+    font-family: poppins;
+}
+
+.like-tr{
+    margin: 200px;
+}
+
+.like-table{
+    position: relative;
+    padding-top: 50px;
+    border-spacing: 60px 0px;
+    margin-bottom: 100px;
+}
+
+.board-flex{
+    display: flex;
+    justify-content: center;
+}
+
+/* ------------------------------------------------------------------ Team End  ---------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------  Footer Starts  ---------------------------------------------------------------------------- */
+.footer{
+    position: relative;
+    bottom: 0;
+    background-color: #013F69;
+    width: 100%;
+}
+
+.footer-sub{
+    margin: 0px 300px;
+}
+
+.footer-li-vertical{
+    display: block;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    font-family: Poppins;
+    position: relative;
+}
+
+.footer-li-horizontal img{
+    width: 50px;
+    height: 50px;
+}
+
+.footer-ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+    padding: 0px;
+    font-family: Poppins;
+    font-size: 15px;
+    transition-duration: 0.4s;
+    color: whitesmoke;
+}
+
+.footer-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer-bottom-ul{
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 10px;
+}
+
+.footer-li-horizontal{
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    font-family: Poppins;
+    position: relative;
+}
+
+.footer-p-head{
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+.footer-p{
+    color: whitesmoke;
+}
+
+/* ------------------------------------------------------------------  Footer Ends  ---------------------------------------------------------------------------- */
